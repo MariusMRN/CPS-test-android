@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6158bf"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <Button
@@ -15,7 +15,9 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="160dp"
         android:background="@drawable/border_button"
+        android:fontFamily="@font/baloo"
         android:text="Start"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,6 +31,7 @@
         android:layout_marginEnd="183dp"
         android:fontFamily="@font/baloo"
         android:textStyle="bold"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_start" />
@@ -42,6 +45,7 @@
         android:layout_marginEnd="176dp"
         android:fontFamily="@font/baloo"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,14 +53,16 @@
 
     <Button
         android:id="@+id/button_click"
-        android:background="@drawable/border_button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="225dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
+        android:background="@drawable/border_button"
+        android:fontFamily="@font/baloo"
         android:text="Click me"
+        android:textColor="#b86032"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
